@@ -1,0 +1,91 @@
+.container {
+  width: 650px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.input,
+.btn {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.input {
+  width: 70%;
+  border: none;
+  outline: 0;
+}
+
+.input:focus {
+  outline: 1px solid rgb(255, 196, 0);
+}
+
+.btn {
+  width: 20%;
+  border: none;
+  background-color: rgb(255, 196, 0);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.94);
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.item p {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.favorite {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.favorite:active {
+  transform: scale(0.9);
+}
+
+.selected {
+  background-color: rgb(255, 255, 169);
+}
+
+.selected .favorite {
+  color: rgb(255, 196, 0);
+}
+
+.remove {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
